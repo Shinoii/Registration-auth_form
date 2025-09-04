@@ -23,9 +23,25 @@
             </ul>
         </nav>
         <div class="auth-section">
-            <a href="#" class="auth-button link">Login</a>
+            <a href="#" class="auth-button link">Log In</a>
             <a href="#" class="registration-button link">Sign In</a>
         </div>
     </header>
+    <main class="main">
+        <div class="modal-auth">
+            <form class="modal-form">
+                <h2 class="modal-auth__title">Log In</h2>
+                <div class="form-input">
+                    <input class="modal-input__field username" type="text" required>
+                    <label for="username" class="form-placeholder">username</label>
+                </div>
+                <div class="form-input">
+                    <input class="modal-input__field password" type="password" required>
+                    <label for="password" class="form-placeholder">password</label>
+                </div>
+                <input class="modal-auth__submit" type="submit" value="ENTER">
+            </form>
+        </div>
+    </main>
 </body>
 </html>
